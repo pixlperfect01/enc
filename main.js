@@ -33,4 +33,4 @@ out+=lst.charAt(ogchars.indexOf(tmp.charAt(ii)));
 }
 tmp=out;
 }
-console.log(tmp);
+document.getElementById('encd').innerHTML=out;
