@@ -63,10 +63,10 @@ var charlist_15=["ĜÐϫѩĺˊǣšɆϧΊưӉϭѤ։əĪѮȌ’ϕԃǶ˺ԇȐĎՄǭ�
 for(var i=order.length-1;i>-1;i--){
 console.log(i);
 out="";
-encrypt(eval("charlist_"+order[i]+"[0]"));
+decrypt(eval("charlist_"+order[i]+"[0]"));
 }
 
-function encrypt(lst){
+function decrypt(lst){
 for(var ii=0;ii<enc.length;ii++){
   //console.log(ii);
 out+=ogchars.charAt(lst.indexOf(tmp.charAt(ii)));
